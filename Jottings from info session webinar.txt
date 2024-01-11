@@ -1,0 +1,25 @@
+Understandings from webinar
+Webinar link as uploaded to youtube - https://www.youtube.com/live/wbNJ4RrIG-A?si=odCkMsYmUeTvkxlG
+
+Problem Statement - To predict (1) power consumption, (2) downtime, and (3) diesel consumption in hybrid telecommunications?
+
+Point:
+- design machine learning-based solutions that can be trained on datasets of few scenarios and then generalise successfully to data from scenarios not seen before
+
+aim - buidl 3 models
+objectives - 
+
+I. Predict Downtime:
+Develop a model to predict downtime occurrences in hub sites.
+Consider site configurations from Appendices A, B, and C for accurate predictions.
+Predict both the date and time of potential downtime events.
+
+II. Estimate Power Consumption:
+Develop a model to estimate energy consumption in different hub sites.
+Consider power sources such as Grid, Generator, Battery, and Solar as per configurations in Appendices A, B, and C.
+The model should identify unexpected increases in power consumption that haven't been seen before.
+
+III. Estimate Diesel Consumption:
+Develop a model to estimate the rate of change in diesel consumption for different hub sites.
+Consider configurations from Appendices A, B, and C for accurate predictions.
+Flag any sudden sharp negative changes in diesel consumption as anomalies.
