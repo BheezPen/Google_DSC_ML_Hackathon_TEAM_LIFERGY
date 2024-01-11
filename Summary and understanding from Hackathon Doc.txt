@@ -1,5 +1,4 @@
-Understandings from webinar
-Webinar link as uploaded to youtube - https://www.youtube.com/live/wbNJ4RrIG-A?si=odCkMsYmUeTvkxlG
+Understandings fromt the hackathon doc
 
 Problem Statement - To predict (1) power consumption, (2) downtime, and (3) diesel consumption in hybrid telecommunications?
 

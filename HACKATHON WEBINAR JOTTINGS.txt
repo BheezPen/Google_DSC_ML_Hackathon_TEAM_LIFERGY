@@ -1,0 +1,18 @@
+HACKATHON WEBINAR JOTTINGS
+
+
+My comment are in our cleaned dataset with the link -https://drive.google.com/file/d/1UrznmTdDGNlx-rJ_gj3ndsjddTn-fjEk/view?usp=sharing
+
+
+1. the 'Grid L1 (W)  - System overview [0]' and 'Genset L1 (W) - System overview [0]' column are the 2 power sources, one or the other are powering the station at every single time, therefore, when both columns are empty, the station has a downtime, also, both columns cannot be on at same time because the station cant have 2 power at same time. SO, after i filter out timestamp where both power soources are empty or zero, there are about 343 cases (i.e about 343 different minutes, there are downtime).
+
+
+2. for DC consumption, 'Tank level  (M3) - Tank [20]', 'Tank remaining fluid (M3) - Tank [20]' and 'Tank status - Tank [20]' caters for the diesel stuff with the tank.
+Tank Level unit is not m3 (i.e meter/cube) bt %, so meaning, when the tank is at 100%, the tank remaining fluid is 0.65 (in m3).
+Did calculation like 0.65*17 / 100 = 0.1105.
+watch btw 59:00 - 1:05
+
+3. Thanks to Raheem David for his question, so, bcus of reliability, the Active Input Column can be ignored or should be given very low weight (in case of neural network) which we are not using.
+
+4. 
+
